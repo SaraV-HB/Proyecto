@@ -25,6 +25,8 @@ public class VAnuales extends javax.swing.JFrame {
         initComponents();
     }
 
+    //modificacion
+
     
     public void mostrar(String an){
         String sql = "SELECT * FROM venta WHERE fecha LIKE '"+an+"%'";
